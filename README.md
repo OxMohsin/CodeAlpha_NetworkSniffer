@@ -22,7 +22,7 @@ A Python-based network packet sniffer built with Scapy. Captures live traffic an
 ## Usage
 
 ```bash
-sudo python3 Task_1.py -i <interface> -c <count> -o <output.pcap>
+sudo python3 network_sniffer.py -i <interface> -c <count> -o <output.pcap>
 ```
 
 **Arguments:**
@@ -36,7 +36,7 @@ sudo python3 Task_1.py -i <interface> -c <count> -o <output.pcap>
 **Example:**
 
 ```bash
-sudo python3 Task_1.py -i wlan0 -c 20 -o capture.pcap
+sudo python3 network_sniffer.py -i wlan0 -c 20 -o capture.pcap
 ```
 
 ## Sample Output
